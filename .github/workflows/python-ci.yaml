@@ -23,7 +23,7 @@ jobs:
 
     - name: Checking for linting errors in code 
       run: python -m pip install flake8-bugbear
-    - uses: advanced-security/python-lint-code-scanning-action@v1
+    - uses: advanced-security/python-lint-code-scanning-action@v2
       with:
         linter: flake8
         
